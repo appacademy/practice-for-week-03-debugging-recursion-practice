@@ -1,13 +1,19 @@
 # Debugging A Stack Overflow
 
-Uh oh! We've written a recursive function, but it's throwing an error! 
+Uh oh! We've written a recursive function, but it's throwing an error!
 Investigate the included problem and see if you can figure out what's going on.
 
-Once you think you've fixed the issue, use `mocha` to confirm. Make sure
-you're in the project's root. Once there, run the following command:
+Make sure you're in the project's root: you should be in the same place as the
+`test/` directory. Once there, run the following setup command:
 
 ```sh
-> mocha
+> npm install
+```
+
+Whenever you want to test your code, run the following command:
+
+```sh
+> npm test
 ```
 
 If you get stuck, step back and try breaking the problem down. Are we missing 
